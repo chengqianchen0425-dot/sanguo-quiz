@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "title": "Three Kingdoms Archetype Quiz",
+    "subtitle": "Your historical archetype is written in your choices",
+    "intro": "Twelve quick questions reveal which Three Kingdoms figure you most resemble. There are no right answers—go with your first instinct.",
+    "brand": "#F25C3B",
+    "resultLabel": "Your Three Kingdoms Archetype",
+    "mode": "poles",
+    "font": "ZCOOL KuaiLe",
+    "lang": "en"
+  },
+  "dimensions": [
+    {
+      "id": "O",
+      "name": "Action",
+      "left": "Active",
+      "right": "Still",
+      "leftCode": "O",
+      "rightCode": "S",
+      "low": "Plan first",
+      "high": "Take the lead"
+    },
+    {
+      "id": "T",
+      "name": "Strategy",
+      "left": "Strategic",
+      "right": "Direct",
+      "leftCode": "S",
+      "rightCode": "O",
+      "low": "Strike straight",
+      "high": "Plan several moves ahead"
+    },
+    {
+      "id": "K",
+      "name": "Stability",
+      "left": "Steady",
+      "right": "Change",
+      "leftCode": "K",
+      "rightCode": "R",
+      "low": "Adapt on the fly",
+      "high": "Hold the ground"
+    }
+  ],
+  "questions": [
+    {
+      "dimension": "O",
+      "text": "When something unexpected happens in the middle of a crisis, you…",
+      "options": [
+        {
+          "text": "Lead the charge at once",
+          "score": {
+            "Active": 2
+          }
+        },
+        {
+          "text": "Watch first, then find an opening",
+          "score": {
+            "Still": 2
+          }
+        },
+        {
+          "text": "Gather everyone and decide together",
+          "score": {
+            "Active": 2
+          }
+        },
+        {
+          "text": "Step back until the situation is clearer",
+          "score": {
+            "Still": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "O",
+      "text": "A friend suddenly invites you out. You are more likely to…",
+      "options": [
+        {
+          "text": "Go without a second thought",
+          "score": {
+            "Active": 2
+          }
+        },
+        {
+          "text": "Check the route before setting off",
+          "score": {
+            "Still": 2
+          }
+        },
+        {
+          "text": "Invite a few more friends along",
+          "score": {
+            "Active": 2
+          }
+        },
+        {
+          "text": "Stay home and enjoy some solitude",
+          "score": {
+            "Still": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "O",
+      "text": "When faced with a new challenge, your first reaction is to…",
+      "options": [
+        {
+          "text": "Give it a try right now",
+          "score": {
+            "Active": 2
+          }
+        },
+        {
+          "text": "Do your homework first",
+          "score": {
+            "Still": 2
+          }
+        },
+        {
+          "text": "Find someone to start with you",
+          "score": {
+            "Active": 2
+          }
+        },
+        {
+          "text": "Wait for a better moment",
+          "score": {
+            "Still": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "O",
+      "text": "You suddenly have a free weekend. You would…",
+      "options": [
+        {
+          "text": "Plan an adventure right away",
+          "score": {
+            "Active": 2
+          }
+        },
+        {
+          "text": "Slow down and reset your own rhythm",
+          "score": {
+            "Still": 2
+          }
+        },
+        {
+          "text": "Call friends for a lively get-together",
+          "score": {
+            "Active": 2
+          }
+        },
+        {
+          "text": "Read, daydream, or take a walk",
+          "score": {
+            "Still": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "T",
+      "text": "When persuading someone, what do you rely on most?",
+      "options": [
+        {
+          "text": "Explaining the logic clearly",
+          "score": {
+            "Direct": 2
+          }
+        },
+        {
+          "text": "Reading the other person's emotions",
+          "score": {
+            "Strategic": 2
+          }
+        },
+        {
+          "text": "Bringing facts and evidence",
+          "score": {
+            "Direct": 2
+          }
+        },
+        {
+          "text": "Leaving space for them to reach the insight themselves",
+          "score": {
+            "Strategic": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "T",
+      "text": "When a team cannot agree, you…",
+      "options": [
+        {
+          "text": "State my proposal directly",
+          "score": {
+            "Direct": 2
+          }
+        },
+        {
+          "text": "Talk to people one by one and find common ground",
+          "score": {
+            "Strategic": 2
+          }
+        },
+        {
+          "text": "Take a quick vote and settle it",
+          "score": {
+            "Direct": 2
+          }
+        },
+        {
+          "text": "Watch for who really holds the key",
+          "score": {
+            "Strategic": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "T",
+      "text": "When reading a history book, what interests you most?",
+      "options": [
+        {
+          "text": "What the people actually did",
+          "score": {
+            "Direct": 2
+          }
+        },
+        {
+          "text": "Why events unfolded that way",
+          "score": {
+            "Strategic": 2
+          }
+        },
+        {
+          "text": "The outcome of the decisive battles",
+          "score": {
+            "Direct": 2
+          }
+        },
+        {
+          "text": "The choices the people never said aloud",
+          "score": {
+            "Strategic": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "T",
+      "text": "Which kind of decision-maker are you?",
+      "options": [
+        {
+          "text": "I make the call decisively",
+          "score": {
+            "Direct": 2
+          }
+        },
+        {
+          "text": "I lay the groundwork for a long time before acting",
+          "score": {
+            "Strategic": 2
+          }
+        },
+        {
+          "text": "I say what I mean face to face",
+          "score": {
+            "Direct": 2
+          }
+        },
+        {
+          "text": "I know how to borrow strength and take the long way around",
+          "score": {
+            "Strategic": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "K",
+      "text": "How do you treat a long-term relationship?",
+      "options": [
+        {
+          "text": "Once I choose it, I protect it for the long haul",
+          "score": {
+            "Steady": 2
+          }
+        },
+        {
+          "text": "I keep it fresh with change",
+          "score": {
+            "Change": 2
+          }
+        },
+        {
+          "text": "I value both promises and stability",
+          "score": {
+            "Steady": 2
+          }
+        },
+        {
+          "text": "Together when it works, apart when it does not",
+          "score": {
+            "Change": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "K",
+      "text": "When your plan is disrupted, you…",
+      "options": [
+        {
+          "text": "Find a way back to the original plan",
+          "score": {
+            "Steady": 2
+          }
+        },
+        {
+          "text": "Switch to another route immediately",
+          "score": {
+            "Change": 2
+          }
+        },
+        {
+          "text": "Secure what is already in hand first",
+          "score": {
+            "Steady": 2
+          }
+        },
+        {
+          "text": "Treat the surprise as a new opportunity",
+          "score": {
+            "Change": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "K",
+      "text": "What matters more to you?",
+      "options": [
+        {
+          "text": "A reliable foundation",
+          "score": {
+            "Steady": 2
+          }
+        },
+        {
+          "text": "Room to stay free",
+          "score": {
+            "Change": 2
+          }
+        },
+        {
+          "text": "Familiar people and routines",
+          "score": {
+            "Steady": 2
+          }
+        },
+        {
+          "text": "The possibilities no one has seen yet",
+          "score": {
+            "Change": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "K",
+      "text": "What do people most often say about you?",
+      "options": [
+        {
+          "text": "Steady—you can count on them",
+          "score": {
+            "Steady": 2
+          }
+        },
+        {
+          "text": "Resourceful—there is always a fresh idea",
+          "score": {
+            "Change": 2
+          }
+        },
+        {
+          "text": "Principled and trustworthy",
+          "score": {
+            "Steady": 2
+          }
+        },
+        {
+          "text": "Free-spirited and impossible to define",
+          "score": {
+            "Change": 2
+          }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "OOK",
+      "name": "Cao Cao",
+      "title": "The clearest strategist in a chaotic age",
+      "oneLiner": "I would bear the world's blame before I give up the initiative.",
+      "traits": [
+        "Decisive",
+        "Suspicious",
+        "Ambitious"
+      ],
+      "desc": "You look for order in confusion and understand the board before opportunity appears. Controversy does not scare you, because the important choices rarely come with perfect answers.",
+      "quote": "\"Raise a toast to the song—how short a human life is.\"",
+      "strengths": [
+        "You make the call when it matters",
+        "You bring complex resources together"
+      ],
+      "blindspots": [
+        "Caution can turn into suspicion",
+        "Your forcefulness can overlook other people's feelings"
+      ],
+      "match": {
+        "best": "SSK",
+        "worst": "OSR"
+      },
+      "avatar": {
+        "head": "qing",
+        "hair": "#241f24",
+        "hat": "#242b36",
+        "hat2": "#c89b4b",
+        "robe": "#28394d",
+        "trim": "#c89b4b",
+        "eyes": "sharp",
+        "props": "sword",
+        "extras": "mustache",
+        "cape": "#9e2b25",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "OSK",
+      "name": "Zhuge Liang",
+      "title": "The careful strategist who gave everything",
+      "oneLiner": "Think through every step, and you earn the right to take the last one.",
+      "traits": [
+        "Perceptive",
+        "Measured",
+        "Committed"
+      ],
+      "desc": "You notice the details others miss and are willing to take a few extra steps for a long-term goal. Your reliability comes from preparation; your edge is hidden behind calm.",
+      "quote": "\"I will devote myself to my duty until my dying day.\"",
+      "strengths": [
+        "Exceptional at planning",
+        "You give a team a steady direction"
+      ],
+      "blindspots": [
+        "You can worry too much",
+        "You sometimes miss the joy of improvisation"
+      ],
+      "match": {
+        "best": "SSK",
+        "worst": "OOR"
+      },
+      "avatar": {
+        "head": "jin",
+        "hair": "#322b34",
+        "hat": "#e8dfce",
+        "hat2": "#b98b58",
+        "robe": "#425a66",
+        "trim": "#d7b37c",
+        "eyes": "sharp",
+        "props": "fan",
+        "extras": "mustache",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "OOR",
+      "name": "Lü Bu",
+      "title": "The fierce general who runs on pure fire",
+      "oneLiner": "Win this battle first; think about the next one later.",
+      "traits": [
+        "Fearless",
+        "Direct",
+        "Passionate"
+      ],
+      "desc": "You carry an energy no one can ignore and give everything once you choose a target. You dislike detours, but sincerity and drive keep opening doors.",
+      "quote": "\"Among men, Lü Bu; among horses, Red Hare.\"",
+      "strengths": [
+        "Your speed of action is unmatched",
+        "You are willing to take risks"
+      ],
+      "blindspots": [
+        "You think about consequences after acting",
+        "A passing emotion can carry you away"
+      ],
+      "match": {
+        "best": "OSR",
+        "worst": "SSR"
+      },
+      "avatar": {
+        "head": "guan",
+        "hair": "#1d1a20",
+        "hat": "#9d3132",
+        "hat2": "#d1a447",
+        "robe": "#7d2930",
+        "trim": "#d1a447",
+        "eyes": "sharp",
+        "props": "spear",
+        "extras": "beard",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "OSR",
+      "name": "Guan Yu",
+      "title": "The proud general who puts loyalty first",
+      "oneLiner": "I rode a thousand miles alone so I would not betray the loyalty in my heart.",
+      "traits": [
+        "Loyal",
+        "Brave",
+        "Proud"
+      ],
+      "desc": "You have your own standards for people and situations, and rarely waver once you commit. You value loyalty and wish every promise carried the weight yours does.",
+      "quote": "\"The Peach Garden oath: together in life and death.\"",
+      "strengths": [
+        "You are worthy of trust",
+        "You take responsibility when it matters"
+      ],
+      "blindspots": [
+        "Pride makes it hard to bend",
+        "High standards can make you seem distant"
+      ],
+      "match": {
+        "best": "OOR",
+        "worst": "OOK"
+      },
+      "avatar": {
+        "head": "guan",
+        "hair": "#1f2024",
+        "hat": "#3e6c54",
+        "hat2": "#d1a447",
+        "robe": "#6e2f34",
+        "trim": "#d6b370",
+        "eyes": "sharp",
+        "props": "sword",
+        "extras": "beard",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "SSK",
+      "name": "Zhao Yun",
+      "title": "The gentle yet steadfast undefeated general",
+      "oneLiner": "The wind at Changban was fierce, but you always knew whom to protect.",
+      "traits": [
+        "Brave",
+        "Gentle",
+        "Reliable"
+      ],
+      "desc": "You do not need noise to prove yourself; you step forward when it truly matters. You can charge ahead and still sheathe your edge, making you a companion people trust.",
+      "quote": "\"I am Zhao Zilong of Changshan.\"",
+      "strengths": [
+        "You stay clear-headed under pressure",
+        "You protect the people who matter"
+      ],
+      "blindspots": [
+        "You carry hardship alone",
+        "You find it hard to ask for what you need"
+      ],
+      "match": {
+        "best": "OSK",
+        "worst": "OOR"
+      },
+      "avatar": {
+        "head": "bun",
+        "hair": "#2d2224",
+        "hat": "#a43a32",
+        "hat2": "#d3a85b",
+        "robe": "#b03c35",
+        "trim": "#e8c47c",
+        "eyes": "dot",
+        "props": "spear",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "SSR",
+      "name": "Liu Bei",
+      "title": "The humane leader who turns hearts into a kingdom",
+      "oneLiner": "The one who wins hearts truly owns a city that will not fall.",
+      "traits": [
+        "Kind",
+        "Empathetic",
+        "Resilient"
+      ],
+      "desc": "You believe in the power of relationships and are willing to give people another chance. Your pull does not come from pressure; it makes people want to face hard things with you.",
+      "quote": "\"Do not do even the smallest evil; do not leave undone even the smallest good.\"",
+      "strengths": [
+        "You bring different people together",
+        "You know how to empathize and inspire"
+      ],
+      "blindspots": [
+        "You can be too soft-hearted",
+        "You sometimes place too much hope in others"
+      ],
+      "match": {
+        "best": "OSK",
+        "worst": "OOR"
+      },
+      "avatar": {
+        "head": "bun",
+        "hair": "#38262b",
+        "hat": "#c18b4b",
+        "hat2": "#ead49a",
+        "robe": "#354c69",
+        "trim": "#d2ad70",
+        "eyes": "smile",
+        "props": "sword",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "SOK",
+      "name": "Zhou Yu",
+      "title": "The elegant and brilliant commander of Red Cliffs",
+      "oneLiner": "With mountains and valleys in your mind, you can calm the storm with a smile.",
+      "traits": [
+        "Poised",
+        "Gifted",
+        "Sharp"
+      ],
+      "desc": "You have taste and ambition; you may look relaxed, but the next move is already arranged in your mind. You stay graceful in complexity and turn strength into results with impeccable timing.",
+      "quote": "\"Amid laughter and conversation, the enemy's fleet turned to ash.\"",
+      "strengths": [
+        "You control the pace with ease",
+        "You turn talent into results"
+      ],
+      "blindspots": [
+        "You demand too much of yourself",
+        "You dislike admitting when control is slipping"
+      ],
+      "match": {
+        "best": "OOK",
+        "worst": "SSR"
+      },
+      "avatar": {
+        "head": "futou",
+        "hair": "#2b2428",
+        "hat": "#344866",
+        "hat2": "#d3ad6e",
+        "robe": "#34585b",
+        "trim": "#dbbd7e",
+        "eyes": "smile",
+        "props": "qin",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "SOR",
+      "name": "Sima Yi",
+      "title": "The patient hunter who keeps his edge sheathed",
+      "oneLiner": "The real winner is often revealed only at the very last moment.",
+      "traits": [
+        "Patient",
+        "Perceptive",
+        "Deep"
+      ],
+      "desc": "You do not rush to win applause; the final result matters more. You know how to wait and how to seize the turning point when everyone else lets down their guard.",
+      "quote": "\"Cultivate yourself through stillness; nurture virtue through frugality.\"",
+      "strengths": [
+        "You build an advantage patiently",
+        "You recognize shifts in the situation"
+      ],
+      "blindspots": [
+        "Silence is easy to misunderstand",
+        "Too much caution can keep you from speaking up"
+      ],
+      "match": {
+        "best": "OSK",
+        "worst": "OOR"
+      },
+      "avatar": {
+        "head": "loose",
+        "hair": "#1b1a21",
+        "hat": "#4d3a54",
+        "hat2": "#b998c4",
+        "robe": "#4a4059",
+        "trim": "#c5a7cb",
+        "eyes": "sleepy",
+        "props": "scroll",
+        "extras": "mustache",
+        "kind": "pixel"
+      }
+    }
+  ],
+  "ui": {
+    "factQ": "{n} questions",
+    "factMin": "About 2 minutes",
+    "factR": "{n} possible results",
+    "maybeYou": "You might be…",
+    "start": "Start the quiz",
+    "progress": "Question {n} of {total}",
+    "prev": "Previous",
+    "backStart": "Back to start",
+    "strengths": "Your strengths",
+    "blindspots": "Blind spots",
+    "best": "Best match",
+    "worst": "Most difficult match",
+    "dims": "Your dimension scores",
+    "low": "Low",
+    "high": "High",
+    "rankV": "Your match with every archetype",
+    "shareHint": "Screenshot this card and share it with your friends",
+    "copyLink": "Copy result link",
+    "copyRes": "Copy result text",
+    "retry": "Try again",
+    "copied": "Copied",
+    "selectManual": "Please select the text and long-press to copy",
+    "shareLine": "I got \"{title}\": {result}",
+    "tryIt": "Find your Three Kingdoms archetype: {url}",
+    "footer": "A lighthearted historical archetype quiz · For entertainment only",
+    "noteTitle": "A quick note",
+    "note": "Three Kingdoms figures can inspire more than one answer. Your choices reflect who you are right now.",
+    "friendEyebrow": "A friend's result",
+    "friendGot": "They got",
+    "friendAsk": "Which one will you be?",
+    "friendLead": "They have found their Three Kingdoms archetype. See whether you two make the best match.",
+    "friendGo": "Take the quiz too",
+    "docTitle": "Three Kingdoms Archetype Quiz | {name} · {title}",
+    "fontCheck": "Loading font",
+    "brandMark": "THREE KINGDOMS / 01",
+    "langZh": "中文",
+    "langEn": "EN",
+    "loadError": "Quiz data could not load. Please refresh and try again."
+  }
+}

@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "title": "三国人物测试",
+    "subtitle": "你的历史人格，写在选择里",
+    "intro": "十二道选择题，测出你更像哪一位三国人物。没有标准答案，凭第一直觉作答。",
+    "brand": "#F25C3B",
+    "resultLabel": "你的三国人格",
+    "mode": "poles",
+    "font": "ZCOOL KuaiLe",
+    "lang": "zh"
+  },
+  "dimensions": [
+    {
+      "id": "O",
+      "name": "行动",
+      "left": "动",
+      "right": "静",
+      "leftCode": "O",
+      "rightCode": "S",
+      "low": "谋定后动",
+      "high": "先声夺人"
+    },
+    {
+      "id": "T",
+      "name": "谋略",
+      "left": "谋",
+      "right": "直",
+      "leftCode": "S",
+      "rightCode": "O",
+      "low": "直取其势",
+      "high": "运筹帷幄"
+    },
+    {
+      "id": "K",
+      "name": "守成",
+      "left": "守",
+      "right": "变",
+      "leftCode": "K",
+      "rightCode": "R",
+      "low": "随机应变",
+      "high": "稳守根基"
+    }
+  ],
+  "questions": [
+    {
+      "dimension": "O",
+      "text": "临阵遇到突发状况，你会？",
+      "options": [
+        {
+          "text": "立刻带头冲上去",
+          "score": {
+            "动": 2
+          }
+        },
+        {
+          "text": "先观察，再找突破口",
+          "score": {
+            "静": 2
+          }
+        },
+        {
+          "text": "召集大家一起决定",
+          "score": {
+            "动": 2
+          }
+        },
+        {
+          "text": "退一步等局势明朗",
+          "score": {
+            "静": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "O",
+      "text": "朋友突然约你出门，你更可能？",
+      "options": [
+        {
+          "text": "说走就走",
+          "score": {
+            "动": 2
+          }
+        },
+        {
+          "text": "查好路线再出发",
+          "score": {
+            "静": 2
+          }
+        },
+        {
+          "text": "顺手叫上更多朋友",
+          "score": {
+            "动": 2
+          }
+        },
+        {
+          "text": "留在家里享受独处",
+          "score": {
+            "静": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "O",
+      "text": "面对一项新挑战，你的第一反应是？",
+      "options": [
+        {
+          "text": "现在就试试看",
+          "score": {
+            "动": 2
+          }
+        },
+        {
+          "text": "先做足功课",
+          "score": {
+            "静": 2
+          }
+        },
+        {
+          "text": "找人一起开局",
+          "score": {
+            "动": 2
+          }
+        },
+        {
+          "text": "等一个更好的时机",
+          "score": {
+            "静": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "O",
+      "text": "周末突然空下来，你会？",
+      "options": [
+        {
+          "text": "马上安排一场冒险",
+          "score": {
+            "动": 2
+          }
+        },
+        {
+          "text": "慢慢整理自己的节奏",
+          "score": {
+            "静": 2
+          }
+        },
+        {
+          "text": "约朋友热闹一番",
+          "score": {
+            "动": 2
+          }
+        },
+        {
+          "text": "读书、发呆或散步",
+          "score": {
+            "静": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "T",
+      "text": "说服别人时，你最依赖？",
+      "options": [
+        {
+          "text": "把道理讲清楚",
+          "score": {
+            "直": 2
+          }
+        },
+        {
+          "text": "看准对方的情绪",
+          "score": {
+            "谋": 2
+          }
+        },
+        {
+          "text": "拿出事实和证据",
+          "score": {
+            "直": 2
+          }
+        },
+        {
+          "text": "留白，让对方自己想通",
+          "score": {
+            "谋": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "T",
+      "text": "团队意见不一时，你会？",
+      "options": [
+        {
+          "text": "直接说出我的方案",
+          "score": {
+            "直": 2
+          }
+        },
+        {
+          "text": "分别沟通，寻找共识",
+          "score": {
+            "谋": 2
+          }
+        },
+        {
+          "text": "投票快速定案",
+          "score": {
+            "直": 2
+          }
+        },
+        {
+          "text": "观察谁真正掌握关键",
+          "score": {
+            "谋": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "T",
+      "text": "读一本历史书，你最关注？",
+      "options": [
+        {
+          "text": "人物做了什么",
+          "score": {
+            "直": 2
+          }
+        },
+        {
+          "text": "局势为何如此发展",
+          "score": {
+            "谋": 2
+          }
+        },
+        {
+          "text": "关键战役的结果",
+          "score": {
+            "直": 2
+          }
+        },
+        {
+          "text": "人物没有说出口的选择",
+          "score": {
+            "谋": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "T",
+      "text": "你更像哪种决策者？",
+      "options": [
+        {
+          "text": "果断拍板",
+          "score": {
+            "直": 2
+          }
+        },
+        {
+          "text": "布局很久再出手",
+          "score": {
+            "谋": 2
+          }
+        },
+        {
+          "text": "有话当面讲",
+          "score": {
+            "直": 2
+          }
+        },
+        {
+          "text": "擅长借力与迂回",
+          "score": {
+            "谋": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "K",
+      "text": "你如何对待一段长期关系？",
+      "options": [
+        {
+          "text": "认定了就一直守护",
+          "score": {
+            "守": 2
+          }
+        },
+        {
+          "text": "保持新鲜感和变化",
+          "score": {
+            "变": 2
+          }
+        },
+        {
+          "text": "重承诺，也重稳定",
+          "score": {
+            "守": 2
+          }
+        },
+        {
+          "text": "合则聚，不合则散",
+          "score": {
+            "变": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "K",
+      "text": "计划被打乱时，你会？",
+      "options": [
+        {
+          "text": "按原计划想办法恢复",
+          "score": {
+            "守": 2
+          }
+        },
+        {
+          "text": "马上换一条路",
+          "score": {
+            "变": 2
+          }
+        },
+        {
+          "text": "先稳住手头的部分",
+          "score": {
+            "守": 2
+          }
+        },
+        {
+          "text": "把意外当成新机会",
+          "score": {
+            "变": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "K",
+      "text": "你更看重什么？",
+      "options": [
+        {
+          "text": "可靠的底盘",
+          "score": {
+            "守": 2
+          }
+        },
+        {
+          "text": "自由的空间",
+          "score": {
+            "变": 2
+          }
+        },
+        {
+          "text": "熟悉的人和事",
+          "score": {
+            "守": 2
+          }
+        },
+        {
+          "text": "未知的可能",
+          "score": {
+            "变": 2
+          }
+        }
+      ]
+    },
+    {
+      "dimension": "K",
+      "text": "别人最常评价你？",
+      "options": [
+        {
+          "text": "稳，交给你放心",
+          "score": {
+            "守": 2
+          }
+        },
+        {
+          "text": "灵，永远有新点子",
+          "score": {
+            "变": 2
+          }
+        },
+        {
+          "text": "有原则，值得信赖",
+          "score": {
+            "守": 2
+          }
+        },
+        {
+          "text": "随性，不被定义",
+          "score": {
+            "变": 2
+          }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "OOK",
+      "name": "曹操",
+      "title": "乱世里最清醒的掌局者",
+      "oneLiner": "宁教我负天下人，也要把主动权握在手里。",
+      "traits": [
+        "果断",
+        "多疑",
+        "雄心"
+      ],
+      "desc": "你习惯在混乱里找秩序，在机会出现前先把棋盘看懂。你不怕承担争议，因为你知道真正的选择往往没有完美答案。",
+      "quote": "“对酒当歌，人生几何。”",
+      "strengths": [
+        "能在关键时刻拍板",
+        "善于整合复杂资源"
+      ],
+      "blindspots": [
+        "容易把谨慎变成猜疑",
+        "强势时忽略他人感受"
+      ],
+      "match": {
+        "best": "SOK",
+        "worst": "OSR"
+      },
+      "avatar": {
+        "head": "qing",
+        "hair": "#241f24",
+        "hat": "#242b36",
+        "hat2": "#c89b4b",
+        "robe": "#28394d",
+        "trim": "#c89b4b",
+        "eyes": "sharp",
+        "props": "sword",
+        "extras": "mustache",
+        "cape": "#9e2b25",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "OSK",
+      "name": "诸葛亮",
+      "title": "一生唯谨慎的军师",
+      "oneLiner": "把每一步都想清楚，才配走向最后一步。",
+      "traits": [
+        "洞察",
+        "克制",
+        "担当"
+      ],
+      "desc": "你总能看见别人忽略的细节，也愿意为长远目标多走几步。你的可靠来自准备，你的锋芒藏在从容之后。",
+      "quote": "“鞠躬尽瘁，死而后已。”",
+      "strengths": [
+        "规划能力极强",
+        "能给团队稳定方向"
+      ],
+      "blindspots": [
+        "容易过度操心",
+        "偶尔错过即兴的快乐"
+      ],
+      "match": {
+        "best": "SOK",
+        "worst": "OOR"
+      },
+      "avatar": {
+        "head": "jin",
+        "hair": "#322b34",
+        "hat": "#e8dfce",
+        "hat2": "#b98b58",
+        "robe": "#425a66",
+        "trim": "#d7b37c",
+        "eyes": "sharp",
+        "props": "fan",
+        "extras": "mustache",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "OOR",
+      "name": "吕布",
+      "title": "只凭一腔热血的猛将",
+      "oneLiner": "先赢下这一场，再想下一场。",
+      "traits": [
+        "勇猛",
+        "直接",
+        "热烈"
+      ],
+      "desc": "你有一股让人无法忽视的能量，认准目标便全力以赴。你不喜欢绕弯，但真诚和行动力总能打开局面。",
+      "quote": "“人中吕布，马中赤兔。”",
+      "strengths": [
+        "行动速度无人能及",
+        "敢于承担风险"
+      ],
+      "blindspots": [
+        "冲动后才想后果",
+        "容易被一时情绪带走"
+      ],
+      "match": {
+        "best": "OSR",
+        "worst": "SSK"
+      },
+      "avatar": {
+        "head": "guan",
+        "hair": "#1d1a20",
+        "hat": "#9d3132",
+        "hat2": "#d1a447",
+        "robe": "#7d2930",
+        "trim": "#d1a447",
+        "eyes": "sharp",
+        "props": "spear",
+        "extras": "beard",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "OSR",
+      "name": "关羽",
+      "title": "义字当头的孤高将军",
+      "oneLiner": "千里走单骑，只为不负心中那份义。",
+      "traits": [
+        "忠义",
+        "勇敢",
+        "自尊"
+      ],
+      "desc": "你对人和事有自己的标准，一旦认定就很少动摇。你看重信义，也希望世界上的承诺都像你一样分量十足。",
+      "quote": "“桃园三结义，生死不相离。”",
+      "strengths": [
+        "值得托付",
+        "关键时刻有担当"
+      ],
+      "blindspots": [
+        "骄傲让你难以低头",
+        "标准过高而显得疏离"
+      ],
+      "match": {
+        "best": "OOR",
+        "worst": "OOK"
+      },
+      "avatar": {
+        "head": "guan",
+        "hair": "#1f2024",
+        "hat": "#3e6c54",
+        "hat2": "#d1a447",
+        "robe": "#6e2f34",
+        "trim": "#d6b370",
+        "eyes": "sharp",
+        "props": "sword",
+        "extras": "beard",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "SOK",
+      "name": "赵云",
+      "title": "温柔而坚定的常胜将军",
+      "oneLiner": "长坂坡的风很急，但你永远知道要护住谁。",
+      "traits": [
+        "勇敢",
+        "温柔",
+        "可靠"
+      ],
+      "desc": "你不靠喧哗证明自己，真正重要的时刻总会站出来。你能冲锋，也能收敛锋芒，是让人安心的同行者。",
+      "quote": "“吾乃常山赵子龙也。”",
+      "strengths": [
+        "在压力下保持清醒",
+        "保护重要的人"
+      ],
+      "blindspots": [
+        "习惯把辛苦自己扛",
+        "不善于表达需要"
+      ],
+      "match": {
+        "best": "OSK",
+        "worst": "OOR"
+      },
+      "avatar": {
+        "head": "bun",
+        "hair": "#2d2224",
+        "hat": "#a43a32",
+        "hat2": "#d3a85b",
+        "robe": "#b03c35",
+        "trim": "#e8c47c",
+        "eyes": "dot",
+        "props": "spear",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "SSK",
+      "name": "刘备",
+      "title": "把人心聚成江山的仁者",
+      "oneLiner": "得人心者，才真正拥有一座不会倒的城。",
+      "traits": [
+        "仁厚",
+        "共情",
+        "坚韧"
+      ],
+      "desc": "你相信关系的力量，也愿意给别人一次机会。你的魅力不是强压，而是让人愿意跟着你一起把难事做成。",
+      "quote": "“勿以恶小而为之，勿以善小而不为。”",
+      "strengths": [
+        "能凝聚不同的人",
+        "善于共情和鼓舞"
+      ],
+      "blindspots": [
+        "容易心软",
+        "有时把希望寄托在别人身上"
+      ],
+      "match": {
+        "best": "OSK",
+        "worst": "OOR"
+      },
+      "avatar": {
+        "head": "bun",
+        "hair": "#38262b",
+        "hat": "#c18b4b",
+        "hat2": "#ead49a",
+        "robe": "#354c69",
+        "trim": "#d2ad70",
+        "eyes": "smile",
+        "props": "sword",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "SOR",
+      "name": "周瑜",
+      "title": "风流儒雅的赤壁都督",
+      "oneLiner": "胸中有丘壑，谈笑间也能定风波。",
+      "traits": [
+        "从容",
+        "才华",
+        "锋利"
+      ],
+      "desc": "你有审美，也有野心；看似轻松，心里早已排好下一步。你擅长在复杂局面里保持优雅，把实力藏在恰到好处的分寸感里。",
+      "quote": "“谈笑间，樯橹灰飞烟灭。”",
+      "strengths": [
+        "掌控节奏感强",
+        "能把才华变成结果"
+      ],
+      "blindspots": [
+        "对自己要求过高",
+        "不喜欢承认失控"
+      ],
+      "match": {
+        "best": "OOK",
+        "worst": "SSK"
+      },
+      "avatar": {
+        "head": "futou",
+        "hair": "#2b2428",
+        "hat": "#344866",
+        "hat2": "#d3ad6e",
+        "robe": "#34585b",
+        "trim": "#dbbd7e",
+        "eyes": "smile",
+        "props": "qin",
+        "kind": "pixel"
+      }
+    },
+    {
+      "id": "SSR",
+      "name": "司马懿",
+      "title": "藏锋于鞘的耐心猎手",
+      "oneLiner": "真正的胜负，常常在最后一刻才揭晓。",
+      "traits": [
+        "耐心",
+        "敏锐",
+        "深沉"
+      ],
+      "desc": "你不急着赢得掌声，更在意最后的结果。你擅长等待，也擅长在别人放松警惕时把握转折。",
+      "quote": "“静以修身，俭以养德。”",
+      "strengths": [
+        "耐心积累优势",
+        "能识别局势变化"
+      ],
+      "blindspots": [
+        "沉默容易被误解",
+        "过于谨慎而错过表达"
+      ],
+      "match": {
+        "best": "OSK",
+        "worst": "OOR"
+      },
+      "avatar": {
+        "head": "loose",
+        "hair": "#1b1a21",
+        "hat": "#4d3a54",
+        "hat2": "#b998c4",
+        "robe": "#4a4059",
+        "trim": "#c5a7cb",
+        "eyes": "sleepy",
+        "props": "scroll",
+        "extras": "mustache",
+        "kind": "pixel"
+      }
+    }
+  ],
+  "ui": {
+    "factQ": "{n}道题",
+    "factMin": "约2分钟",
+    "factR": "{n}种结果",
+    "maybeYou": "可能测出的你",
+    "start": "开始测试",
+    "progress": "第 {n} / {total} 题",
+    "prev": "上一题",
+    "backStart": "回开始页",
+    "strengths": "你的优势",
+    "blindspots": "盲点提醒",
+    "best": "最佳拍档",
+    "worst": "最难相处",
+    "dims": "维度落点",
+    "low": "低",
+    "high": "高",
+    "rankV": "你和各人格的匹配度",
+    "shareHint": "截图这张卡片就能晒朋友圈",
+    "copyLink": "复制结果链接",
+    "copyRes": "复制结果文案",
+    "retry": "再测一次",
+    "copied": "已复制",
+    "selectManual": "请长按选中文案复制",
+    "shareLine": "我测出的是「{title}」：{result}",
+    "tryIt": "来测测你的三国人格：{url}",
+    "footer": "一份轻松的历史人格测试 · 仅供娱乐",
+    "noteTitle": "小知识",
+    "note": "三国人物的魅力，不止一种答案。你的选择会映出此刻的你。",
+    "friendEyebrow": "好友测试结果",
+    "friendGot": "测出了",
+    "friendAsk": "你会是哪一位？",
+    "friendLead": "他已经找到自己的三国人格，来看看你们是不是最佳拍档。",
+    "friendGo": "我也来测",
+    "docTitle": "三国人物测试｜{name} · {title}",
+    "fontCheck": "字体加载中",
+    "brandMark": "三国 / 01",
+    "langZh": "中文",
+    "langEn": "EN",
+    "loadError": "测试数据暂时无法加载，请刷新重试。"
+  }
+}
